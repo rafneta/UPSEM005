@@ -2,8 +2,8 @@
   "articles": [
     {
       "path": "clasemuestra.html",
-      "title": "Clase muestra ",
-      "description": "Tema del temario\n",
+      "title": "Clase Mi0422 ",
+      "description": "3.1: Distribuciones de Probablibilidad\n\n3.1.3: Distrubución normal \n",
       "author": [
         {
           "name": {},
@@ -11,16 +11,16 @@
         }
       ],
       "date": "May 4, 2022",
-      "contents": "\n\nContents\nTemas 1\nTema 2\nTema 2.1\n\nTema 3\n\nTemas 1\nTema 2\nTema 2.1\nTema 3\n\n\nShow code\n\n1 + 1\n\n\n[1] 2\n\n\n\n\n",
-      "last_modified": "2022-04-28T10:08:50-05:00"
+      "contents": "\n\nContents\nRevisión previa\nDistribuciones de probabilidad\nDistribución normal\nImplementación en R\nTema 2.1\n\nTema 3\n\nRevisión previa\n\n\nDistribuciones de probabilidad\nEn R se tiene un documento donde se puede encontrar una descripción sobre las distribuciones y bibliotecas donde están inplementadas.\nDistribución normal\nLa función de distribución de probabilidad normal está determinada por\n\\[f(x) = \\frac{1}{\\sqrt{2 \\pi} \\sigma} e^{-\\frac{(x - \\mu)^2}{2 \\sigma^2}}\\] Mientras que la función de densidad de probabilidad es\n\\[F(x)=P(X\\leq x)=\\int_{-\\infty}^x f(t) \\,dt=\\frac{1}{\\sqrt{2 \\pi} \\sigma}\\int_{-\\infty}^x e^{-\\frac{(t - \\mu)^2}{2 \\sigma^2}}\\,dt\\]\nImplementación en R\npnorm. Función de distribución\ndnorm. Función de densidad\nqnorm. Función cuantil\nrnorm. Genración de numeros aleatorios\nTema 2.1\nTema 3\n\n\nShow code\n\n1 + 1\n\n\n[1] 2\n\n\n\n\n",
+      "last_modified": "2022-04-28T17:05:27-05:00"
     },
     {
       "path": "index.html",
       "title": "Seminario de Investigación V",
       "description": "\nSeminario de investigación V, es una asignatura del séptimo semestre del Doctorado en Ciencias Empresariales\nde la Universidad Panamericana \n\nDr. Rafael Martínez Martínez\n",
       "author": [],
-      "contents": "\n\nContents\nPresentación\nRequisitos\nHerramientas\nCalendario\nPropósito de la unidad de aprendizaje\nCompetencias a desarrollar\nTemario\nForma de evaluación\nReferencias\nPolíticas\n\nPresentación\nDr. Rafael Martínez Martínez\nramartinezr@ipn.mx\nLinkedin: [enlace]\nfacebook: [enlace]\npágina: [enlace]\nRequisitos\nHerramientas\nCalendario\nPropósito de la unidad de aprendizaje\nCompetencias a desarrollar\nTemario\nForma de evaluación\n\nActividades a evaluar\nPorcentaje\n\nReportes (R)\n15.0\n\nProblemas (PR)\n20.0\n\nPrácticas (P)\n20.0\n\nEvaluación Escrita (EE)\n45.0\n\n\n100.0\n\n\n\nPara la calificación final se tiene el siguiente esquema. Sea \\(x\\in\\mathbb{R}\\), la calificación obtenida\nCondición\n\nCalificación final\n\\(x \\pmod{10} < 5\\)\n\\(\\rightarrow\\)\n\\(\\left \\lfloor x/10 \\right \\rfloor\\)\n\\(x \\pmod{10} \\geq 5\\)\n\\(\\rightarrow\\)\n\\(\\left \\lceil x/10 \\right \\rceil\\)\n\n\n\nReferencias\nPolíticas\n\n\n\n",
-      "last_modified": "2022-04-28T10:09:54-05:00"
+      "contents": "\n\nContents\nPresentación\nRequisitos\nHerramientas\nCalendario\nPropósito de la unidad de aprendizaje\nCompetencias a desarrollar\nTemario\nForma de evaluación\nReferencias\nPolíticas\n\nPresentación\nDr. Rafael Martínez Martínez\nramartinezr@ipn.mx\nLinkedin: [enlace]\nfacebook: [enlace]\npágina: [enlace]\nRequisitos\nHerramientas\nCalendario\nPropósito de la unidad de aprendizaje\nCompetencias a desarrollar\nTemario\nForma de evaluación\n\nActividades a evaluar\nPorcentaje\n\nEjercicios de análisis estadísticos con programa R\n50.0\n\nEntrega del primer borrador de tesis de grado\n40.0\n\nPresentación del primer borrador\n10.0\n\n\n100.0\n\n\n\nPara la calificación final se tiene el siguiente esquema. Sea \\(x\\in\\mathbb{R}\\), la calificación obtenida\nCondición\n\nCalificación final\n\\(x \\pmod{10} < 5\\)\n\\(\\rightarrow\\)\n\\(\\left \\lfloor x/10 \\right \\rfloor\\)\n\\(x \\pmod{10} \\geq 5\\)\n\\(\\rightarrow\\)\n\\(\\left \\lceil x/10 \\right \\rceil\\)\n\n\n\nReferencias\nPolíticas\n\n\n\n",
+      "last_modified": "2022-04-28T17:05:50-05:00"
     }
   ],
   "collections": []
