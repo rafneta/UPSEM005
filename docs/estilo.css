@@ -93,7 +93,20 @@ d-article p a:link {
  color: rgba(0,74,151,0.5);
 }
 
+td {
+  color: rgba(125,127,129,1);
+}
+
+thead {
+  color: rgba(125,127,129,1);
+}
+
 p {
+  
+  color: rgba(125,127,129,1);
+}
+
+li {
   
   color: rgba(125,127,129,1);
 }
